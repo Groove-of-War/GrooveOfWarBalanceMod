@@ -1,0 +1,10 @@
+---
+
+id: GoWBalanceMod
+name: "Groove of War Balance Mod"
+author: "Fly Sniper, BarrettRTS"
+description: "Competitive balance mod by the Groove of War community."
+#remove:
+#  unitClass:
+#    - drone
+...

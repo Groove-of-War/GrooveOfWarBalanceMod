@@ -1,0 +1,40 @@
+---
+
+grooves:
+
+  - id: second_wind
+    name: groove_name_second_wind
+    description: groove_description_second_wind
+    maxCharge: 200
+    chargePerUse: 200
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_second_wind
+
+  - id: dash
+    name: groove_name_dash
+    description: groove_description_dash
+    maxCharge: 150
+    chargePerUse: 150
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_dash
+
+  - id: splash_jump
+    name: groove_name_splash_jump
+    description: groove_description_splash_jump
+    maxCharge: 200
+    chargePerUse: 200
+    chargeBy:
+      endOfTurn: 10
+      attack: 20
+      counter: 10
+      kill: 30
+    verb: groove_splash_jump
+...

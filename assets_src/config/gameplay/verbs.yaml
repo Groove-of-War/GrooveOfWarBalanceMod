@@ -1,0 +1,33 @@
+---
+
+verbs:
+  - id: groove_second_wind
+    icon: ui/icons/grooves/unit_action_icon_inspire.png
+    name: groove_name_second_wind
+    targetColour: target
+    targetOutlineColour: target_outline
+    splashOutlineColour: target_outline
+    targetted: true
+    splashRadius: 1
+    scriptName: verbs/groove_second_wind
+
+  - id: groove_splash_jump
+    icon: ui/icons/grooves/unit_action_icon_shield.png
+    name: groove_name_splash_jump
+    targetColour: target
+    targetOutlineColour: target_outline
+    splashOutlineColour: attack_target_outline
+    targetted: true
+    splashRadius: 2
+    scriptName: verbs/groove_splash_jump
+
+  - id: groove_dash
+    icon: ui/icons/grooves/unit_action_icon_dash.png
+    name: groove_name_dash
+    targetColour: target
+    targetOutlineColour: target_outline
+    targetDisplayColour: attack_target
+    targetDisplayOutlineColour: attack_target_outline
+    preExecute: true
+    scriptName: verbs/groove_dash
+...
